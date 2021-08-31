@@ -71,7 +71,7 @@ function addOutputEntry(
         sell.currency,
         utils.printAmount(fee),
         fee.currency,
-        "BTS-DEX",
+        "GPH-DEX",
         tradeGroup || "",
         comment || "",
         date

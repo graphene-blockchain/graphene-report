@@ -199,7 +199,7 @@ async function doWork() {
         });
     }
 
-    fs.open(`output/${user}-bts-transactions.csv`, "w", (err, fd) => {
+    fs.open(`output/${user}-gph-transactions.csv`, "w", (err, fd) => {
         if (err) throw err;
         let contents = "";
 
