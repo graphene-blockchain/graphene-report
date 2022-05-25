@@ -71,7 +71,7 @@ function addOutputEntry(
         sell.currency,
         utils.printAmount(fee),
         fee.currency,
-        "BTS-DEX",
+        "GPH-DEX",
         tradeGroup || "",
         comment || "",
         date,
@@ -264,7 +264,7 @@ function parseData(recordData, accountId, accountName) {
                 let boughtFunds = utils.parseCurrency(data.receives);
                 fee = utils.parseCurrency(data.fee);
 
-                if (fee.currency !== "BTS") {
+                if (fee.currency !== "GPH") {
                     if (boughtFunds.currency === fee.currency) {
                         boughtFunds.amount -= fee.amount;
                         fee.amount = 0;

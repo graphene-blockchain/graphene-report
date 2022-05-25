@@ -1,8 +1,7 @@
 module.exports = {
-    apiNode: "wss://eu.nodes.bitshares.ws",
-    // wss://eu.nodes.bitshares.ws is an alternative
+    apiNode: "wss://node.gph.ai",
     useES: true,
     // use elastic search
-    esNode: "https://wrapper.elasticsearch.bitshares.ws",
-    botPaymentAccounts: [],
+    esNode: "https://es-wrapper.gph.ai",
+    botPaymentAccounts: []
 };
